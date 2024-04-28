@@ -40,11 +40,6 @@
     flex-direction: column;
 }
 
-
-.page-inner::-webkit-scrollbar {
-    width: 0;
-}
-
 .page-nav {
     gap: 0 15px;
     display: flex;

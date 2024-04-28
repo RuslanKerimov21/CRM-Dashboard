@@ -1,7 +1,9 @@
 .staff-search {
+    right: 0;
     width: 360px;
     padding: 20px;
     overflow: hidden;
+    position: absolute;
     background: #fff;
     border-radius: 10px;
 }

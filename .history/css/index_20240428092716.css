@@ -41,7 +41,7 @@
 }
 
 
-.page-inner::-webkit-scrollbar {
+.page-inner::-webkit-scrollbar{
     width: 0;
 }
 

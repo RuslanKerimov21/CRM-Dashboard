@@ -41,9 +41,7 @@
 }
 
 
-.page-inner::-webkit-scrollbar {
-    width: 0;
-}
+.page-inner::web
 
 .page-nav {
     gap: 0 15px;
