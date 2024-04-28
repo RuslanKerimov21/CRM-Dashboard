@@ -1,0 +1,262 @@
+@import url('./global.css');
+@import url('./header.css');
+@import url('./sidebar.css');
+@import url('./staff.list.css');
+@import url('./staff.search.css');
+@import url('./page.naviagation.css');
+@import url('https://fonts.googleapis.com/css2?family=Rubik:ital,wght@0,300..900;1,300..900&display=swap');
+
+.app {
+    display: flex;
+}
+
+.button {
+    width: 100%;
+    color: #fff;
+    padding: 11px;
+    display: flex;
+    font-weight: 500;
+    align-items: center;
+    border-radius: 20px;
+    background: #6362E7;
+    justify-content: center;
+}
+
+
+.back-to {
+    height: 29px;
+    display: flex;
+    padding: 0 17px;
+    background: #fff;
+    border-radius: 20px;
+    align-items: center;
+}
+
+.page-inner {
+    width: 75vw;
+    display: flex;
+    overflow: auto;
+    margin: 150px auto;
+    flex-direction: column;
+}
+
+.page-nav {
+    gap: 0 15px;
+    display: flex;
+    align-items: center;
+}
+
+.page-content {
+    gap: 24px;
+    display: flex;
+    position: relative;
+    margin-top: 81px;
+}
+
+.staff-profile_left {
+    gap: 24px 0;
+    width: 80%;
+    display: flex;
+    flex-direction: column;
+}
+
+.staff-basic_info {
+    gap: 15px;
+    padding: 20px;
+    background: #ffff;
+    border-radius: 10px;
+}
+
+.staff-basic_info:first-child {
+    display: flex;
+    align-items: center;
+}
+
+.staff-profile_avatar {
+    width: 80px;
+    height: 80px;
+    overflow: hidden;
+    background: #D9D9D9;
+    border-radius: 100%;
+}
+
+.staff-profile_avatar img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+.staff-profile_info {
+    gap: 10px 0;
+    display: flex;
+    flex-direction: column;
+}
+
+.staff-profile_name,
+.staff-profile_title {
+    font-size: 20px;
+    font-weight: 500;
+}
+
+.staff-profile_status {
+    font-weight: 400;
+    font-size: 16px;
+    color: #707070;
+}
+
+.profile-info_list {
+    gap: 10px 0;
+    display: flex;
+    margin-top: 20px;
+    flex-direction: column;
+}
+
+.profile-info_title {
+    font-weight: 400;
+}
+
+.profile-info_value {
+    color: #707070;
+}
+
+.key-skills_list {
+    gap: 10px;
+    display: flex;
+    margin-top: 30px;
+}
+
+.key-skills_item {
+    padding: 5px 10px;
+    font-weight: 400;
+    font-size: 14px;
+    color: #707070;
+    border-radius: 5px;
+    border: 1px solid #D9D9D9;
+}
+
+.staff-profile_right {
+    width: 45%;
+}
+
+.comment-lists {
+    overflow: auto;
+    max-height: 43vh;
+}
+
+.comment-lists,
+.staff-profile_tab-conetent {
+    gap: 24px;
+    display: flex;
+    flex-direction: column;
+}
+
+.staff-profile_tabs {
+    gap: 0 15px;
+    display: flex;
+    margin-bottom: 24px;
+}
+
+.tab-item {
+    cursor: pointer;
+    font-size: 20px;
+    font-weight: 500;
+}
+
+.tab-item.active {
+    color: #6362E7;
+}
+
+.tab-separator {
+    border: 1px solid #000;
+}
+
+.form-comment,
+.comment-item {
+    padding: 25px;
+    background: #fff;
+    border-radius: 10px;
+}
+
+.comment-textarea {
+    height: 80px;
+    padding: 10px;
+    overflow: hidden;
+    position: relative;
+    border: 1px solid #CDCDCD;
+}
+
+.comment-textarea textarea {
+    width: 100%;
+    height: 100%;
+    resize: none;
+}
+
+.comment-textarea button {
+    right: 10px;
+    position: absolute;
+}
+
+.comment-form_footer {
+    display: flex;
+    margin-top: 20px;
+}
+
+.comment-form_control {
+    gap: 0 15px;
+    display: flex;
+}
+
+.comment-form_footer .button {
+    width: fit-content;
+    margin-left: auto;
+}
+
+.comment-item_top {
+    gap: 0 10px;
+    display: flex;
+    align-items: center;
+}
+
+.comment-profile {
+    gap: 0 10px;
+    display: flex;
+    align-items: center;
+}
+
+.comment-avatar {
+    width: 50px;
+    height: 50px;
+    overflow: hidden;
+    border-radius: 100%;
+    background: #D9D9D9;
+}
+
+.comment-avatar img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+.comment-profile_info {
+    display: flex;
+    flex-direction: column;
+}
+
+.comment-profile_name {
+    font-weight: 500;
+}
+
+.comment-publication {
+    font-size: 14px;
+    font-weight: 300;
+}
+
+.comment-controls {
+    gap: 0 15px;
+    display: flex;
+    margin-left: auto;
+}
+
+.comment-descr {
+    margin-top: 15px;
+}

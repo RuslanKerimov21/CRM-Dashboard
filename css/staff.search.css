@@ -1,0 +1,78 @@
+.staff-search {
+    right: 0;
+    width: 360px;
+    padding: 20px;
+    overflow: hidden;
+    position: absolute;
+    background: #fff;
+    border-radius: 10px;
+}
+
+.staff-searfch_title {
+    font-weight: 500;
+    padding-bottom: 20px;
+    border-bottom: 1px solid #8A8A8A;
+}
+
+.form-search {
+    width: 100%;
+    height: 38px;
+    display: flex;
+    margin-top: 25px;
+    padding: 0 10px;
+    overflow: hidden;
+    align-items: center;
+    position: relative;
+    border-radius: 5px;
+    border: 1px solid #000;
+}
+
+.form-search input {
+    width: 100%;
+    font-size: 15px;
+}
+
+.search {
+    right: 0;
+    width: 38px;
+    height: 100%;
+    cursor: pointer;
+    background: #fff;
+    position: absolute;
+}
+
+.search-filter_group{
+    margin-top: 25px;
+}
+
+.search-filter_title {
+    font-weight: 500;
+}
+
+.search-filter_list {
+    gap: 12px 0;
+    display: flex;
+    margin-top: 12px;
+    flex-direction: column;
+}
+
+.search-filter_item {
+    display: flex;
+    color: #707070;
+    font-weight: 400;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.filter-length {
+    width: 31px;
+    height: 23px;
+    color: #fff;
+    display: flex;
+    font-weight: 500;
+    font-size: 15px;
+    border-radius: 5px;
+    align-items: center;
+    background: #6362E7;
+    justify-content: center;
+}
